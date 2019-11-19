@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Learn Angular 8';
+  onClickChange() {
+    console.log('hello');
+  }
 }
