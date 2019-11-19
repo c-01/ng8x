@@ -1,7 +1,7 @@
-import { Component } from "@angular/core";
+import { Component } from '@angular/core';
 
 @Component({
-  selector: "app-hello",
+  selector: 'app-hello',
   template: `
     <h3 [ngStyle]="{ color: color, background: background }">
       this is hello h3 {{ text }}
@@ -19,14 +19,14 @@ import { Component } from "@angular/core";
     </p>
 
     <button (click)="onChangeColor()">
-      {{ flagColor ? "Change" : "Changed" }} Color
+      {{ flagColor ? 'Change' : 'Changed' }} Color
     </button>
   `
 })
 export class HelloComponent {
-  text = "Name is Jon";
-  color = "yellow";
-  background = "red";
+  text = 'Name is Jon';
+  color = 'yellow';
+  background = 'red';
   styleMore = { background: this.background, color: this.color };
   flagColor = true;
 
