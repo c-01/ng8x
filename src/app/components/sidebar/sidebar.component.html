@@ -1,0 +1,9 @@
+<mat-sidenav-container>
+  <mat-sidenav [(opened)]="openSideBar" mode="over">
+    SideNav
+  </mat-sidenav>
+  <mat-sidenav-content>
+    Main
+    <button (click)="openSideBar = !openSideBar">Toggle Sidebar</button>
+  </mat-sidenav-content>
+</mat-sidenav-container>

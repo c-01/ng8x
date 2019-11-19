@@ -7,15 +7,28 @@ import { LifeCycleComponent } from './components/life-cycle/life-cycle.component
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { CartIconComponent } from './components/cart-icon/cart-icon.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { BtnDemoComponent } from './components/btn-demo/btn-demo.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   // @Decorator
-  declarations: [AppComponent, HelloComponent, LifeCycleComponent, CartIconComponent],
+  declarations: [
+    AppComponent,
+    HelloComponent,
+    LifeCycleComponent,
+    CartIconComponent,
+    NavBarComponent,
+    BtnDemoComponent,
+    SidebarComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

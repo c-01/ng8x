@@ -1,25 +1,5 @@
-<mat-slider min="1" max="100" step="1" value="1"></mat-slider>
-<div class="buttons">
-  <!-- <button mat-button (click)="onClickChange()">Default Btn</button> -->
-  <button mat-raised-button (click)="onClickChange()">Default Btn</button>
-  <button mat-raised-button color="primary" (click)="onClickChange()">
-    mat-raised-button
-  </button>
-  <button mat-flat-button color="warn" (click)="onClickChange()">
-    mat-flat-button
-  </button>
-  <button mat-stroked-button color="accent" (click)="onClickChange()">
-    mat-stroked-button
-  </button>
-  <app-cart-icon></app-cart-icon>
-  <hr />
-  <!-- ERROR syntax-->
-  <!-- <mat-button color="primary">New Button</mat-button> -->
+<app-nav-bar></app-nav-bar>
+<app-sidebar></app-sidebar>
+<!-- <app-btn-demo></app-btn-demo> -->
 
-  <mat-button-toggle #btnToggle checked>New Button</mat-button-toggle>
-  {{ btnToggle.checked }}
-  <hr />
-  <app-cart-icon></app-cart-icon>
-</div>
-<!-- <app-hello></app-hello> -->
-<app-life-cycle></app-life-cycle>
+<!-- <app-life-cycle></app-life-cycle> -->
