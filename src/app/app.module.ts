@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './components/hello/hello.component';
 import { LifeCycleComponent } from './components/life-cycle/life-cycle.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatSliderModule } from '@angular/material/slider';
+import { MaterialModule } from './material/material.module';
 
 @NgModule({
   // @Decorator
@@ -14,7 +14,7 @@ import { MatSliderModule } from '@angular/material/slider';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSliderModule
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
