@@ -11,6 +11,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { BtnDemoComponent } from './components/btn-demo/btn-demo.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { FormsModule } from '@angular/forms';
+import { InputDemoComponent } from './components/input-demo/input-demo.component';
 
 @NgModule({
   // @Decorator
@@ -21,7 +22,8 @@ import { FormsModule } from '@angular/forms';
     CartIconComponent,
     NavBarComponent,
     BtnDemoComponent,
-    SidebarComponent
+    SidebarComponent,
+    InputDemoComponent
   ],
   imports: [
     BrowserModule,

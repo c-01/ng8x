@@ -1,5 +1,12 @@
+<div>AppCommon {{ moneyOfParent }}</div>
 <app-nav-bar></app-nav-bar>
-<app-sidebar></app-sidebar>
+<app-input-demo
+  (sentAppCom)="receivedFromInput($event)"
+  [money]="moneyOfParent"
+></app-input-demo>
+
+<!-- <app-sidebar></app-sidebar> -->
+
 <!-- <app-btn-demo></app-btn-demo> -->
 
 <!-- <app-life-cycle></app-life-cycle> -->

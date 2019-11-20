@@ -1,0 +1,10 @@
+<div class="input-container">
+  <mat-form-field floatLabel="always" appearance="outline" color="primary">
+    <!--floatLabel="never|always|auto"-->
+    <mat-label>Name {{ money }}</mat-label>
+    <input required matInput placeholder="Please enter name" />
+    <mat-hint align="end">Name is required</mat-hint>
+  </mat-form-field>
+
+  <button mat-raised-button (click)="onClickChangeSent()">Change & Send</button>
+</div>

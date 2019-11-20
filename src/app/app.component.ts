@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Learn Angular 8';
+  moneyOfParent = 900;
+
+  receivedFromInput(e) {
+    this.moneyOfParent = e;
+    console.log(e);
+  }
 }
